@@ -7,14 +7,14 @@ Pod::Spec.new do |spec|
   spec.name = 'MicrophoneStream'
   spec.version = '0.4.0'
   spec.license = { :type => 'MIT' }
-  spec.homepage = 'https://github.com/chadsmith/react-native-microphone-stream'
+  spec.homepage = 'https://github.com/tyleryasaka/react-native-microphone-stream.git'
   spec.summary = 'React Native module used for two-way audio'
   spec.authors = 'chadsmith'
-  spec.source = { :git => 'https://github.com/chadsmith/react-native-microphone-stream.git',
+  spec.source = { :git => 'https://github.com/tyleryasaka/react-native-microphone-stream.git',
                   :tag => "v#{spec.version}" }
   spec.module_name = 'MicrophoneStream'
-  spec.header_dir = 'microphone-stream'
-  spec.source_files = 'microphone-stream/*.{h,cc}'
+  spec.header_dir = 'ios'
+  spec.source_files = 'ios/*.{h,cc}'
   spec.compiler_flags = '-Wno-unreachable-code'
 
   # Pinning to the same version as React.podspec.
